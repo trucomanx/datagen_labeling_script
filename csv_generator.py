@@ -9,8 +9,8 @@ import WorkingWithFiles as rnfunc
 #######################################################################
 ## python csv_generator.py --format .png --csv-file labels.csv --base-dir /my/path
 #######################################################################
-csv_file='labels.csv';
-base_dir='/mnt/c/Dados/Fernando/DATASET/fer2013-fpr2023/archive/test';
+csv_file='test_labels.csv'; #'training_labels.csv';
+base_dir='/mnt/boveda/DATASETs/FACE-EMOTION/mcfer_v1.0/archive/test';
 default_format='.png';
 
 format_list=[];
