@@ -8,8 +8,14 @@ import sys
 ## Si solo hay una persona se asume que es un paciente y se envia la directorio "paciente".
 ## Si hay mas de una persona en la imagen estas se envian a un directorio "incognita".
 
-sys.path.append('/home/fernando/Proyectos/PÓS-GRADUAÇÂO/TESIS-DOUTORADO-2/PESQUISA/software/WorkingWithFiles/library');
+"""
+git clone https://github.com/trucomanx/WorkingWithFiles.git
+cd WorkingWithFiles/src
+python setup.py sdist
+pip3 install dist/WorkingWithFiles-*.tar.gz
+"""
 import WorkingWithFiles as rnfunc
+
 
 sys.path.append('/home/fernando/Proyectos/PÓS-GRADUAÇÂO/TESIS-DOUTORADO-2/PESQUISA/software/OpenpifpafTools/library');
 import OpenpifpafAnnotations as opp
